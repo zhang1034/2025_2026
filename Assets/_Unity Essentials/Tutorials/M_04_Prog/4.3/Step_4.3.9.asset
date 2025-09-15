@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: Step_4.3.9
+  m_EditorClassIdentifier: 
+  Title:
+    m_Untranslated: Create an interesting path of collectibles
+  m_Paragraphs:
+    m_Items:
+    - m_Type: 9
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: 
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 2800000, guid: 6364b7a48740744648dde302febc49fc, type: 3}
+      m_VideoUrl: https://storage.googleapis.com/learn-media-public/Essentials-Pathway/4.3%20-%20Collect%20the%20collectibles/4.3.9%20-%20Create%20an%20interesting%20path%20of%20collectibles%20-%20VIDEO.webm
+      m_Video: {fileID: 32900000, guid: 5b69f4d6321874ec19173e92689ae1ad, type: 3}
+      m_Media:
+        m_ContentType: 2
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 0}
+        m_Url: https://storage.googleapis.com/learn-media-public/Essentials-Pathway/4.3%20-%20Collect%20the%20collectibles/4.3.9%20-%20Create%20an%20interesting%20path%20of%20collectibles%20-%20VIDEO.webm
+        m_AutoStart: 0
+        m_Loop: 0
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 0
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: "With your collectible now completely functional, you\u2019re
+          ready to populate your scene with more of them. We'll provide you with
+          a few pro tips for efficiently creating a straight, evenly-spaced path
+          of objects in your scene."
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_VideoUrl: 
+      m_Video: {fileID: 0}
+      m_Media:
+        m_ContentType: 0
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 0}
+        m_Url: 
+        m_AutoStart: 1
+        m_Loop: 1
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 1
+      Title:
+        m_Untranslated: Instructions
+      Text:
+        m_Untranslated: "<b>1.</b>  In the <b>Scene</b> view, make sure you are using
+          <b>Global</b> coordinates so that you can move objects in a straight line
+          relative to the world\u2019s coordinates, regardless of which way each
+          object is facing.\n\n<b>2.</b>  In the <b>Hierarchy</b> window, double-click
+          the <b>03_Living_Room</b> GameObject to frame it, then use the <b>Scene</b>
+          view gizmos to switch to the Top view to get a better perspective for arranging
+          the collectibles. \n\n<b>3.</b>  Select the <b>Move</b> tool, then select
+          your collectible.\n\n<b>4.</b>  Press <b>Ctrl+D</b> (macOS: <b>Cmd+D</b>)
+          to duplicate the collectible. \n\nThe duplicate collectible will be at
+          the same position \u2014 so you won\u2019t see it in the <b>Scene</b> view,
+          but you will see a copy appear in the <b>Hierarchy</b> window.\n\n<b>5.</b> 
+          To move the duplicated collectible along a specific axis (X, Y, or Z),
+          click and drag one of the arrows of the <b>Move</b> tool.\n\n<b>6.</b> 
+          To ensure that the collectibles are evenly spaced, hold down <b>Ctrl</b>
+          (macOS: <b>Cmd</b>) while you move the collectible. \n\nThis enables snapping,
+          so that you can place the collectible at fixed increments along the chosen
+          axis.\n\n<b>7.</b>  Repeat the process: duplicate (<b>Ctrl+D</b> (macOS:
+          <b>Cmd+D</b>), then move (drag while holding <b>Ctrl</b> or <b>Cmd</b>)
+          to create a series of collectibles, forming a path or pattern.\n\nMake
+          an interesting path through the environment so that the user of your game
+          will explore and interact with the entire living room.\n\n<b>8.</b>  Test
+          your living room scene in Play mode and try to collect all the collectibles
+          \u2014 it should be pretty satisfying gameplay now that you have some visual
+          feedback on each collision!"
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_VideoUrl: 
+      m_Video: {fileID: 0}
+      m_Media:
+        m_ContentType: 0
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 0}
+        m_Url: 
+        m_AutoStart: 1
+        m_Loop: 1
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_CompletedSound: {fileID: 0}
+  m_FaqEntries: []
+  m_AutoAdvance: 0
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforePageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: Next
+  m_DoneButton: Done

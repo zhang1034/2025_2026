@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89305aa391d1c5141bbe1628d930a2c5, type: 3}
+  m_Name: Tutorials 5.0 2D-Essentials
+  m_EditorClassIdentifier: 
+  Modified:
+    m_PersistentCalls:
+      m_Calls: []
+  ParentContainer: {fileID: 11400000, guid: 801cf8a0e199669469d6ab016c592df7, type: 2}
+  OrderInView: 4
+  BackgroundImage: {fileID: 2800000, guid: 14d28600a0ee14a58a50dba0797ab1f6, type: 3}
+  Title:
+    m_Untranslated: 5 |  2D Essentials
+  Subtitle:
+    m_Untranslated: Learn how developing for 2D differs from 3D as you create a 2D
+      version of the living room scene.
+  Description:
+    m_Untranslated: 
+  ProjectLayout: {fileID: 102900000, guid: 337f070b8c61e93458a3035159475b94, type: 3}
+  Sections:
+  - OrderInView: 0
+    Heading:
+      m_Untranslated: 1 - Set up a 2D Room
+    Text:
+      m_Untranslated: Set up the 2D player character that the user can move around
+        an empty room with boundary walls.
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 9dfb40a5e18e349ec9111a68e466aeca, type: 3}
+    Tutorial: {fileID: 11400000, guid: b2a89bdc812d54141a82f0ff9c4b003b, type: 2}
+  - OrderInView: 1
+    Heading:
+      m_Untranslated: 2 - Complete your 2D puzzle game
+    Text:
+      m_Untranslated: Fill out the 2D room with pushable furniture, collectibles,
+        and a UI that tracks the player's progress.
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 03dd70ed3f0d646aa805926a18a23019, type: 3}
+    Tutorial: {fileID: 11400000, guid: 16a60e986af654407aad20da9164e87c, type: 2}
+  - OrderInView: 2
+    Heading:
+      m_Untranslated: 3 - Add an animated pet
+    Text:
+      m_Untranslated: Use the <b>Sprite Editor</b> window to animate a 2D cat or
+        dog, then add it to the room.
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 8f4bb6d24fbd8fe49a08f040e13a632f, type: 3}
+    Tutorial: {fileID: 11400000, guid: f54b796756a22431e87c82a8db17ebca, type: 2}
+  - OrderInView: 3
+    Heading:
+      m_Untranslated: '4 - 2D Essentials: More things to try'
+    Text:
+      m_Untranslated: 'Further develop your project and skills with optional challenges
+        of varying difficulty. '
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 810e5237937ef1446812c21b2f418fd7, type: 3}
+    Tutorial: {fileID: 11400000, guid: 9a98d58d3cba3b44ea25ee320ce2eefd, type: 2}
+  - OrderInView: 4
+    Heading:
+      m_Untranslated: 5 - Complete the checkpoint
+    Text:
+      m_Untranslated: Complete a quiz to get credit for completing the Mission.
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: e1797cada939dba44be74155a455e59c, type: 3}
+    Tutorial: {fileID: 11400000, guid: 21b449469b6c9c645ae595ae2b86838b, type: 2}

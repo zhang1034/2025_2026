@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: Step_2.4.3
+  m_EditorClassIdentifier: 
+  Title:
+    m_Untranslated: Align the camera with the perfect view
+  m_Paragraphs:
+    m_Items:
+    - m_Type: 9
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: 
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 2800000, guid: 98e93eb561c2f4852b76048a296d7b44, type: 3}
+      m_VideoUrl: https://storage.googleapis.com/learn-media-public/Essentials-Pathway/2.4%20-%20Lights%2C%20Camera%2C%20Action/2.4.3%20-%20Align%20the%20camera%20with%20the%20perfect%20view%20-%20VIDEO_U6_V3.webm
+      m_Video: {fileID: 32900000, guid: ce6efe6d42746485ab22d8d6809e17a8, type: 3}
+      m_Media:
+        m_ContentType: 2
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 0}
+        m_Url: https://storage.googleapis.com/learn-media-public/Essentials-Pathway/2.4%20-%20Lights%2C%20Camera%2C%20Action/2.4.3%20-%20Align%20the%20camera%20with%20the%20perfect%20view%20-%20VIDEO_U6_V3.webm
+        m_AutoStart: 0
+        m_Loop: 0
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews:
+        - m_SelectorType: 1
+          m_ViewType:
+            m_TypeName: 
+          m_FocusEditorWindow: 0
+          m_EditorWindowType:
+            m_TypeName: UnityEditor.ProjectBrowser, UnityEditor.CoreModule, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 0
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls:
+          - m_SelectorMode: 4
+            m_SelectorMatchType: 1
+            m_GUIContent:
+              m_Text: 
+              m_Image: {fileID: 0}
+              m_Tooltip: 
+              m_TextWithWhitespace: 
+            m_ControlName: 
+            m_PropertyPath: 
+            m_TargetType:
+              m_TypeName: 
+            m_GUIStyleName: 
+            m_ObjectReference:
+              m_SceneObjectReference:
+                m_SceneGuid: 
+                m_GameObjectGuid: 
+                m_SerializedComponentType:
+                  m_TypeName: 
+                m_ComponentIndex: 0
+                m_AssetObject: {fileID: 0}
+                m_Prefab: {fileID: 6536759105426295190, guid: 47ed842c8f0cd4fdabd9715f899f18f9,
+                  type: 3}
+              m_FutureObjectReference: {fileID: 0}
+            m_VisualElementClassName: 
+            m_VisualElementName: 
+            m_VisualElementTypeName: 
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 0
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: It can be tricky to get the camera perfectly aligned using
+          the <b>Move</b> and <b>Rotate</b> tools. There is a shortcut to get the
+          camera angle you want by aligning the camera with your position and orientation
+          in the <b>Scene</b> view.
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_VideoUrl: 
+      m_Video: {fileID: 0}
+      m_Media:
+        m_ContentType: 0
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 0}
+        m_Url: 
+        m_AutoStart: 1
+        m_Loop: 1
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 1
+      Title:
+        m_Untranslated: Instructions
+      Text:
+        m_Untranslated: "<b>1.</b>  In the <b>Scene</b> view, use Flythrough mode
+          (WASD + right-click) to get the perfect view of the bouncing ball and your
+          block towers. \n\n<b>2.</b>  Select the <b>Camera</b> GameObject in the
+          <b>Hierarchy</b> window.\n\n<b>3.</b>  Press <b>Ctrl+Shift+F</b> (macOS:
+          <b>Cmd+Shift+F</b>) to align the <b>Camera</b> GameObject with your current
+          view. \n\n<b>Note:</b> With the <b>Camera</b> still selected, you could
+          also go to the main menu and select <b>GameObject</b> > <b>Align with View.</b>\n\n<b>4.</b> 
+          Enter Play mode to test the new camera angle. \n\nIf necessary, tweak the
+          <b>Position</b>, <b>Rotation</b>, or <b>Field of View</b> property in the
+          <b>Camera</b> component to get the perfect angle. \n\n<b>5.</b>  When you\u2019re
+          happy with your camera angle, disable the <b>Cameras</b> window overlay.\n\n<b>Tip:</b>
+          Trying to do these minor movements in the <b>Scene</b> view with Flythrough
+          mode can be frustrating. Try lightly tapping on the WASD keys while holding
+          the right mouse button to do small movements. You can also use the Q and
+          E keys in Flythrough mode to go up and down."
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_VideoUrl: 
+      m_Video: {fileID: 0}
+      m_Media:
+        m_ContentType: 0
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 0}
+        m_Url: 
+        m_AutoStart: 1
+        m_Loop: 1
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_CompletedSound: {fileID: 0}
+  m_FaqEntries: []
+  m_AutoAdvance: 0
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforePageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: Next
+  m_DoneButton: Done

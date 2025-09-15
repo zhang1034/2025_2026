@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: Step_5.1.10
+  m_EditorClassIdentifier: 
+  Title:
+    m_Untranslated: Make the remaining walls
+  m_Paragraphs:
+    m_Items:
+    - m_Type: 9
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: 
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 2800000, guid: 646f7a6eda532402f8b0c0675feed1a1, type: 3}
+      m_VideoUrl: https://storage.googleapis.com/learn-media-public/Essentials-Pathway/5.1%20-%20Create%20a%202D%20Room/5.1.10%20-%20Make%20the%20remaining%20walls%20-%20VIDEO.webm
+      m_Video: {fileID: 32900000, guid: 5b69f4d6321874ec19173e92689ae1ad, type: 3}
+      m_Media:
+        m_ContentType: 2
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 0}
+        m_Url: https://storage.googleapis.com/learn-media-public/Essentials-Pathway/5.1%20-%20Create%20a%202D%20Room/5.1.10%20-%20Make%20the%20remaining%20walls%20-%20VIDEO.webm
+        m_AutoStart: 0
+        m_Loop: 0
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 0
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: "You have one wall done \u2014 you just need three more!"
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_VideoUrl: 
+      m_Video: {fileID: 0}
+      m_Media:
+        m_ContentType: 0
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 0}
+        m_Url: 
+        m_AutoStart: 1
+        m_Loop: 1
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 1
+      Title:
+        m_Untranslated: Instructions
+      Text:
+        m_Untranslated: "<b>1.</b>  Select the <b>Wall</b> GameObject you've already
+          created in the <b>Hierarchy</b> window.\n\n<b>2.</b>  Duplicate the wall
+          object by pressing <b>Ctrl+D</b> (macOS: <b>Cmd+D</b>). Rename this duplicate
+          to indicate its position (For example, \u201CWall_Top\u201D).\n\n<b>Tip:</b> 
+          Right after duplicating an object, press the <b>F2</b> key (macOS: <b>Return</b>
+          key) to quickly rename the selected duplicate. Then press <b>Enter</b>
+          (macOS: <b>Return</b>) again to confirm the new name. \n\n<b>3.</b>  Use
+          the <b>Move</b> tool to adjust the duplicate's position to the opposite
+          side of the original wall. \n\nDon\u2019t worry \u2014 the placement doesn\u2019t
+          have to be perfect. It just has to overlap the edge of the play area. \n\n<b>4.</b> 
+          Duplicate the top wall, then use a combination of the <b>Rect</b> tool
+          and <b>Move</b> tool to create Wall_Left and Wall_Right.\n\n<b>5.</b> 
+          To organize the <b>Hierarchy</b> window, select all wall objects (using
+          the <b>Shift</b> or <b>Ctrl</b> (macOS: <b>Cmd</b>) keys. Right-click one
+          of the selected objects and select <b>Create Empty Parent.</b> \n\nThis
+          action groups the walls under a single GameObject, which you can name \u201CWalls\u201D
+          for clarity.\n\n<b>6.</b>  Test the scene to ensure all walls are correctly
+          positioned and prevent the player from moving beyond the designated game
+          area.\n\n<b>Note:</b>  Remember to save your scene!"
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_VideoUrl: 
+      m_Video: {fileID: 0}
+      m_Media:
+        m_ContentType: 0
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 0}
+        m_Url: 
+        m_AutoStart: 1
+        m_Loop: 1
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_CompletedSound: {fileID: 0}
+  m_FaqEntries: []
+  m_AutoAdvance: 0
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforePageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: Next
+  m_DoneButton: Done

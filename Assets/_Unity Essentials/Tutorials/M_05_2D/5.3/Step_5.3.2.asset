@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: Step_5.3.2
+  m_EditorClassIdentifier: 
+  Title:
+    m_Untranslated: Open the sprite sheet in the Sprite Editor
+  m_Paragraphs:
+    m_Items:
+    - m_Type: 9
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: 
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_VideoUrl: https://storage.googleapis.com/learn-media-public/Essentials-Pathway/5.3%20-%20Add%20an%20animated%20pet/5.3.2%20-%20Open%20the%20sprite%20sheet%20in%20the%20Sprite%20Editor_U6%20V2.webm
+      m_Video: {fileID: 32900000, guid: 5b69f4d6321874ec19173e92689ae1ad, type: 3}
+      m_Media:
+        m_ContentType: 2
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 0}
+        m_Url: https://storage.googleapis.com/learn-media-public/Essentials-Pathway/5.3%20-%20Add%20an%20animated%20pet/5.3.2%20-%20Open%20the%20sprite%20sheet%20in%20the%20Sprite%20Editor_U6%20V2.webm
+        m_AutoStart: 0
+        m_Loop: 0
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 0
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: "2D sprites are often animated using sprite sheets. A <b>sprite
+          sheet</b> is a large image containing many smaller images (sprites). As
+          you might know, an animation is just a series of image frames played one
+          after the other \u2014 and a sprite sheet is useful for holding all of
+          those individual frames in one place. \n\nUnity has a built-in tool called
+          the <b>Sprite Editor</b> that helps you work very efficiently with sprite
+          sheets. \n\nIn this step, you\u2019ll open either the dog or the cat sprite
+          sheet in the <b>Sprite Editor</b>."
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_VideoUrl: 
+      m_Video: {fileID: 0}
+      m_Media:
+        m_ContentType: 0
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 0}
+        m_Url: 
+        m_AutoStart: 1
+        m_Loop: 1
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 1
+      Title:
+        m_Untranslated: Instructions
+      Text:
+        m_Untranslated: "<b>1.</b>  In the <b>Project</b> window, navigate to <b>_Unity
+          Essentials</b> > <b>Sprites</b> > <b>Animated.</b> \n\n<b>2.</b>  Select
+          <b>Sprite_Sheet_Cat</b> or <b>Sprite_Sheet_Dog</b> to preview the sprite
+          sheet at the bottom of the <b>Inspector</b> window. \n\n<b>3.</b>  In the
+          <b>Inspector</b> window, change the <b>Sprite Mode</b> property from <b>Single</b>
+          to <b>Multiple,</b> then select <b>Apply</b>. \n\nThis will allow you to
+          slice the sprite sheet into multiple individual sprites. \n\n<b>4.</b> 
+          Select <b>Open Sprite Editor</b> to view the sprite sheet in the <b>Sprite
+          Editor</b> window. "
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_VideoUrl: 
+      m_Video: {fileID: 0}
+      m_Media:
+        m_ContentType: 0
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 0}
+        m_Url: 
+        m_AutoStart: 1
+        m_Loop: 1
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_CompletedSound: {fileID: 0}
+  m_FaqEntries: []
+  m_AutoAdvance: 0
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforePageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: Next
+  m_DoneButton: Done

@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89305aa391d1c5141bbe1628d930a2c5, type: 3}
+  m_Name: Tutorial 1
+  m_EditorClassIdentifier: 
+  Modified:
+    m_PersistentCalls:
+      m_Calls: []
+  ParentContainer: {fileID: 11400000, guid: 801cf8a0e199669469d6ab016c592df7, type: 2}
+  OrderInView: 0
+  BackgroundImage: {fileID: 2800000, guid: 9ffbb20cd548ccb488a2b72d9849d48c, type: 3}
+  Title:
+    m_Untranslated: 1 |  Editor Essentials
+  Subtitle:
+    m_Untranslated: Explore a playground scene and design a mural to get comfortable
+      with the Unity interface.
+  Description:
+    m_Untranslated: 
+  ProjectLayout: {fileID: 0}
+  Sections:
+  - OrderInView: 0
+    Heading:
+      m_Untranslated: 1 - Explore the Editor interface
+    Text:
+      m_Untranslated: Jump into your first Unity scene and familiarize yourself with
+        the main Editor windows.
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 9b4098af026277942bea5c8d02b420fb, type: 3}
+    Tutorial: {fileID: 11400000, guid: b849b95645fc3490f9ac73f16a46e846, type: 2}
+  - OrderInView: 1
+    Heading:
+      m_Untranslated: 2 - Master 3D scene navigation
+    Text:
+      m_Untranslated: 'Complete a scavenger hunt through the playground to learn
+        the basics of navigation. '
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 095528ffafd021848bb18d0ca4d88e05, type: 3}
+    Tutorial: {fileID: 11400000, guid: 72b2e98d374d94b0681ee8ae6e2bf641, type: 2}
+  - OrderInView: 2
+    Heading:
+      m_Untranslated: 3 - Pass the <b>Scene</b> view flying test
+    Text:
+      m_Untranslated: 'Fly through rings around the playground and to your <b>Scene</b>
+        view navigation skills. '
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: ead4256d268a9984a92d07ba3c74b881, type: 3}
+    Tutorial: {fileID: 11400000, guid: fb848c44190d7fd4aa7558c682f3142b, type: 2}
+  - OrderInView: 3
+    Heading:
+      m_Untranslated: 4 - Create a mural in the <b>Scene</b> view
+    Text:
+      m_Untranslated: Use the move and rotate tools in the <b>Scene</b> view to create
+        a custom mural at the center of the playground.
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 3771d54e3805a8542ba7700b6d3fb8aa, type: 3}
+    Tutorial: {fileID: 11400000, guid: 54fc4581e127a4188984dc2026b4eb04, type: 2}
+  - OrderInView: 4
+    Heading:
+      m_Untranslated: '5 - Editor Essentials: More things to try'
+    Text:
+      m_Untranslated: 'Further develop your project and skills with optional challenges
+        of varying difficulty. '
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 810e5237937ef1446812c21b2f418fd7, type: 3}
+    Tutorial: {fileID: 11400000, guid: 971f348af425ad14eba7af0f10cf090a, type: 2}
+  - OrderInView: 5
+    Heading:
+      m_Untranslated: 6 - Complete the checkpoint
+    Text:
+      m_Untranslated: Complete a quiz to get credit for completing the Mission.
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: e1797cada939dba44be74155a455e59c, type: 3}
+    Tutorial: {fileID: 11400000, guid: 0e187a2ad62335045a159e10db9267a1, type: 2}

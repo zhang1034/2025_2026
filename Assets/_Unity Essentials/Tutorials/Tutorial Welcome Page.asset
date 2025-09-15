@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0885f594ab85594caa28e1a96cbe0d8, type: 3}
+  m_Name: Tutorial Welcome Page
+  m_EditorClassIdentifier: 
+  Modified:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Image: {fileID: 2800000, guid: a888d6f61be9acc41812d88871d8a40e, type: 3}
+  m_WindowTitle:
+    m_Untranslated: Unity Essentials Guided Project
+  m_Title:
+    m_Untranslated: Welcome to the Unity Essentials in-Editor Pathway!
+  m_Description:
+    m_Untranslated: "Designed for anyone new to Unity, this guided learning journey
+      is your first step toward creating confidently in the Unity Editor and bringing
+      your visions to life. \nIn this learning Pathway, you\u2019ll design different
+      rooms of a house, learning the essentials of one key skillset as you complete
+      each room. You\u2019ll go through these skills in the following order:\n\n1.
+      <b>Editor Essentials:</b> \nExplore a playground scene and design a mural to
+      get comfortable with the Unity interface.\n\n2. <b>3D Essentials:</b> \nDesign
+      a kid's bedroom with a bouncing ball and a tower of collapsing building blocks.
+      \n\n3. <b>Audio Essentials:</b> \nAdd immersive sound to a kitchen scene with
+      a variety of different types of audio.\n\n4. <b>Programming Essentials:</b>
+      \nAdd code so that a player character can explore a living room and gather
+      collectibles. \n\n5. <b>2D Essentials:</b> \nCreate a top-down minigame similar
+      to the 3D living room experience, but in 2D.\n\n6. <b>Publishing Essentials:</b>
+      \nCombine all of your scenes together into one cohesive portfolio project that
+      you can share with others. \n\nReady to get started? "
+  m_Buttons:
+  - Text:
+      m_Untranslated: Close
+    Tooltip:
+      m_Untranslated: 
+    OnClick:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000}
+          m_TargetAssemblyTypeName: Unity.Tutorials.Core.Editor.TutorialWelcomePage,
+            Unity.Tutorials.Core.Editor
+          m_MethodName: CloseCurrentModalDialog
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 1
+  - Text:
+      m_Untranslated: Start Mission 1
+    Tooltip:
+      m_Untranslated: 
+    OnClick:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000}
+          m_TargetAssemblyTypeName: Unity.Tutorials.Core.Editor.TutorialWelcomePage,
+            Unity.Tutorials.Core.Editor
+          m_MethodName: CloseCurrentModalDialog
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 1
+        - m_Target: {fileID: 11400000, guid: 801cf8a0e199669469d6ab016c592df7, type: 2}
+          m_TargetAssemblyTypeName: Unity.Tutorials.Core.Editor.TutorialContainer,
+            Unity.Tutorials.Core.Editor
+          m_MethodName: HighlightTutorialWindow
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 1

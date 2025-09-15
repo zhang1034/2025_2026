@@ -1,0 +1,182 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: Step_5.2.7
+  m_EditorClassIdentifier: 
+  Title:
+    m_Untranslated: Add a collectible to the scene
+  m_Paragraphs:
+    m_Items:
+    - m_Type: 9
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: 
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_VideoUrl: https://storage.googleapis.com/learn-media-public/Essentials-Pathway/5.2%20-%20Complete%20your%202D%20Game/5.2.7%20-%20Add%20a%20collectible%20to%20the%20scene%20-%20VIDEO.webm
+      m_Video: {fileID: 32900000, guid: 5b69f4d6321874ec19173e92689ae1ad, type: 3}
+      m_Media:
+        m_ContentType: 2
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 0}
+        m_Url: https://storage.googleapis.com/learn-media-public/Essentials-Pathway/5.2%20-%20Complete%20your%202D%20Game/5.2.7%20-%20Add%20a%20collectible%20to%20the%20scene%20-%20VIDEO.webm
+        m_AutoStart: 0
+        m_Loop: 0
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 0
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: "With the room completely set up, you\u2019re ready to introduce
+          some collectibles into the scene. \n\nFor this scene, we have provided
+          with you 2D collectible sprite prefabs that already include the following
+          components:\n\n\u2022 A <b>2D Collider</b> component (either Box or Polygon)
+          with <b>Is Trigger</b> enabled so that the player can detect it but not
+          bump into it, just like the 3D collectible.\n\u2022 A <b>Collectible 2D</b>
+          script component, which is very similar to the <b>Collectible</b> script
+          you wrote earlier \u2014 it rotates the collectible and spawns a particle
+          effect when it\u2019s collected.\n\nWith these components already set up,
+          the collectible should work properly as soon as you drag it into the scene."
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_VideoUrl: 
+      m_Video: {fileID: 0}
+      m_Media:
+        m_ContentType: 0
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 0}
+        m_Url: 
+        m_AutoStart: 1
+        m_Loop: 1
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 1
+      Title:
+        m_Untranslated: Instructions
+      Text:
+        m_Untranslated: "<b>1.</b>  In the <b>Project</b> window, navigate to the
+          <b>_Unity Essentials</b> > <b>Sprites</b> > <b>Collectibles</b> folder.\n\n<b>2.</b> 
+          Drag your desired sprite prefab into your scene in front of the player.\n\n<b>3.</b> 
+          Enter <b>Play</b> mode and get the collectible. \n\nYou\u2019ll notice
+          that the collectible is destroyed and a VFX object spawns. \n\n<b>Note:</b> 
+          If you\u2019re interested, go to the <b>Scripts</b> > <b>Provided Scripts</b>
+          folder, select the <b>Collectible2D</b> script, and scan through the code
+          in the <b>Inspector</b> window. Note the key differences between this script
+          and the Collectible script you wrote:\n\n\u2022 Instead of rotating the
+          collectible along the Y-axis, it rotates it along the Z-axis to align with
+          the 2D world's plane. \n\u2022 Instead of the default <b>OnTriggerEnter</b>
+          and <b>Collider</b> code, it uses <b>OnTriggerEnter2D</b> and <b>Collider2D.</b>
+          These optimized 2D functions avoid 3D physics calculations, which aren't
+          needed in a 2D context."
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_VideoUrl: 
+      m_Video: {fileID: 0}
+      m_Media:
+        m_ContentType: 0
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 0}
+        m_Url: 
+        m_AutoStart: 1
+        m_Loop: 1
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_CompletedSound: {fileID: 0}
+  m_FaqEntries: []
+  m_AutoAdvance: 0
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforePageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: Next
+  m_DoneButton: Done

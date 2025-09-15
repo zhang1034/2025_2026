@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: Step_2.5.4
+  m_EditorClassIdentifier: 
+  Title:
+    m_Untranslated: 'Expert: Add and frame custom artwork'
+  m_Paragraphs:
+    m_Items:
+    - m_Type: 9
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: 
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_VideoUrl: https://storage.googleapis.com/learn-media-public/Essentials-Pathway/2.C%20-%20Challenge/2.C.4%20-%20Expert%20-%20Add%20and%20frame%20custom%20artwork%20.webm
+      m_Video: {fileID: 0}
+      m_Media:
+        m_ContentType: 2
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 0}
+        m_Url: https://storage.googleapis.com/learn-media-public/Essentials-Pathway/2.C%20-%20Challenge/2.C.4%20-%20Expert%20-%20Add%20and%20frame%20custom%20artwork%20.webm
+        m_AutoStart: 0
+        m_Loop: 0
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 0
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: "This optional challenge is classified as Expert difficulty.
+          If you\u2019re interested in completing it, read on. Otherwise, skip to
+          the next step.  \n\nThis room is still sort of bland \u2014 it would benefit
+          a lot from some custom artwork. Adding some artwork also allows you to
+          personalize this room a bit more and make it your own.\n\nTo accomplish
+          this, you\u2019ll need to create a blank art canvas using a quad primitive,
+          then import and apply an image of your choosing as the quad\u2019s material.
+          Finally, you\u2019ll make it look a little nicer with a frame."
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_VideoUrl: 
+      m_Video: {fileID: 0}
+      m_Media:
+        m_ContentType: 0
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 0}
+        m_Url: 
+        m_AutoStart: 1
+        m_Loop: 1
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 1
+      Title:
+        m_Untranslated: Instructions
+      Text:
+        m_Untranslated: "<b>1.</b>  Right-click in the <b>Hierarchy</b> window, select
+          <b>3D Object</b> > <b>Quad</b> to create a flat one-sided object.\n\n<b>2.</b>
+          In the <b>Transform</b> component of the quad, set its <b>Y</b> rotation
+          value to <b>90</b> so that it will lie flat against the wall (or another
+          multiple of 90, depending on which wall you want to put it on), then position
+          it against a wall using the <b>Move</b> tool.\n\n<b>3.</b>  Find or create
+          an image you want to use for your artwork. \n\nIf you don\u2019t have one
+          in mind, use one from one of the links below by opening the link, right-clicking
+          on the image, and selecting <b>Save Image As\u2026:</b>\n\u2022 <a href=\"https://unity-connect-prd.storage.googleapis.com/20190411/learn/images/2c2068e0-dc6c-4661-bff7-21f9059d3775_3DBeginner_AssetStore_SocialMedia.png\">John
+          Lemon</a>\n\u2022 <a href=\"https://unity-connect-prd.storage.googleapis.com/20190808/learn/images/b8fc4d22-6741-437f-998f-df4d04bfed52_BigCactus2_AssetStore_SocialMedia.jpg\">Big
+          Cactus</a>\n\u2022 <a href=\"https://unity-connect-prd.storage.googleapis.com/20230413/learn/images/da6c7837-79c6-411c-bbc4-e56e94b42766_Game_Jam_Start_Blue_2.jpg\">Game
+          Jam Race</a>\n\n<b>4.</b>  Create a new material in the <b>My Materials</b>
+          folder named \u201CArt_Mat\u201D and apply it to your Quad GameObject.
+          \n\n<b>5.</b>  To import your chosen image into your project, drag the
+          image file from your file explorer into the <b>My Materials</b> folder
+          in the <b>Project</b> window. \n\nThis action will create a new copy of
+          the image file in your Unity project folder. \n\n<b>6.</b>  In the <b>Surface
+          Inputs</b> section of your Art_Mat\u2019s <b>Inspector</b> window, for
+          the <b>Base Map</b> property, use the <b>Object</b> picker (<b>\u2299</b>)
+          to select your image. \n\n<b>7.</b>  Adjust the Quad GameObject\u2019s
+          scale if necessary to avoid image distortion. \n\nYou will likely want
+          to stretch out the canvas to make it wider. \n\n<b>8.</b>  Duplicate the
+          Quad (<b>Ctrl+D</b> (macOS: <b>Cmd+D</b>)), rename the duplicate \"Frame\",
+          and make it a child GameObject of the Quad GameObject. \n\n<b>9.</b> Adjust
+          the scale of the <b>Frame</b> GameObject to <b>1.1</b> on all axes to slightly
+          enlarge it compared to the art, then reposition it behind the other Quad
+          GameObject to ensure it doesn't block the art.\n\n<b>10.</b>  Create a
+          new material in the \"My Materials\" folder, name it after your chosen
+          frame color, set the <b>Base Map</b> to a nice frame color, and apply this
+          material to the frame to finalize the frame's appearance.\n\nIf you want,
+          you can create additional pieces of artwork using the same steps above!"
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_VideoUrl: 
+      m_Video: {fileID: 0}
+      m_Media:
+        m_ContentType: 0
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 0}
+        m_Url: 
+        m_AutoStart: 1
+        m_Loop: 1
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_CompletedSound: {fileID: 0}
+  m_FaqEntries: []
+  m_AutoAdvance: 0
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforePageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: Next
+  m_DoneButton: Done

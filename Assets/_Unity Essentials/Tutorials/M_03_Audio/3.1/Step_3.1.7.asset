@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: Step_3.1.7
+  m_EditorClassIdentifier: 
+  Title:
+    m_Untranslated: Add random bird sounds outside
+  m_Paragraphs:
+    m_Items:
+    - m_Type: 9
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: 
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_VideoUrl: https://storage.googleapis.com/learn-media-public/Essentials-Pathway/3.1%20-%20Create%20an%20Immersive%20Soundscape/3.1.7%20-%20Add%20Random%20Bird%20Sounds%20Outside%20-%20VIDEO_U6_V2.webm
+      m_Video: {fileID: 32900000, guid: 5b69f4d6321874ec19173e92689ae1ad, type: 3}
+      m_Media:
+        m_ContentType: 2
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 0}
+        m_Url: https://storage.googleapis.com/learn-media-public/Essentials-Pathway/3.1%20-%20Create%20an%20Immersive%20Soundscape/3.1.7%20-%20Add%20Random%20Bird%20Sounds%20Outside%20-%20VIDEO_U6_V2.webm
+        m_AutoStart: 0
+        m_Loop: 0
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 0
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: "To further enrich the soundscape of your kitchen scene,
+          next you'll add the ambient sound of birds chirping outside. \n\nYou'll
+          achieve this effect by positioning <b>Audio Sources</b> outside the kitchen,
+          such as near a window or in an adjacent outdoor area, and using a custom
+          script to play bird chirping sounds at random intervals. \n\nThis randomness
+          mimics the natural behavior of birds, making the scene more immersive and
+          lifelike."
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_VideoUrl: 
+      m_Video: {fileID: 0}
+      m_Media:
+        m_ContentType: 0
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 0}
+        m_Url: 
+        m_AutoStart: 1
+        m_Loop: 1
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 1
+      Title:
+        m_Untranslated: Instructions
+      Text:
+        m_Untranslated: "<b>1.</b>  Create a new <b>Audio Source</b> in your scene
+          and position it where you'd like the sound of a bird to originate, such
+          as outside a window or near an imaginary tree.\n\n<b>2.</b>  Rename this
+          <b>Audio Source</b> something descriptive, like \u201CBird_1\u201D.\n\n<b>3.</b> 
+          Assign the <b>SFX_Bird_1</b> sound as the <b>Audio Resource</b> of the
+          source, then make sure to set the <b>Spatial Blend</b> to <b>1.0</b> (full
+          3D).\n\n<b>4.</b>  To avoid the bird sound playing immediately as the scene
+          loads, disable the <b>Play on Awake</b> property.\n\n<b>5.</b>  Select
+          <b>Add Component,</b> then search for and add a component named \u201CPlay
+          Sound at Random Intervals\u201D. \n\nWe've provided this simple script
+          so that you can play an audio clip at random time intervals. If you want,
+          adjust the properties to change the minimum and maximum seconds.\n\n<b>6.</b> 
+          Enter <b>Play</b> mode to hear the bird chirping at random intervals. \n\n<b>7.</b> 
+          Duplicate this <b>Audio Source</b> for additional birds. Rename each <b>Audio
+          Source</b> accordingly (for example, \u201CBird_2\u201D, \u201CBird_3\u201D,
+          etc.), and position them at different points around the exterior of the
+          kitchen.\n\n<b>8.</b>  For each new bird sound source, choose a different
+          bird chirping sound to vary the soundscape.\n\n<b>9.</b>  Enter <b>Play</b>
+          mode to appreciate the level of immersion that is added to the scene with
+          this natural-sounding ambient audio.\n\n<b>10.</b>  Save your scene."
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_VideoUrl: 
+      m_Video: {fileID: 0}
+      m_Media:
+        m_ContentType: 0
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 0}
+        m_Url: 
+        m_AutoStart: 1
+        m_Loop: 1
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_CompletedSound: {fileID: 0}
+  m_FaqEntries: []
+  m_AutoAdvance: 0
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforePageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: Next
+  m_DoneButton: Done

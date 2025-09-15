@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f107dc6d4c984c45bdafd3bb15f98f0, type: 3}
+  m_Name: Tutorial 1.4 - Share your work
+  m_EditorClassIdentifier: 
+  TutorialTitle:
+    m_Untranslated: Design a mural in the Scene view
+  m_ProgressTrackingEnabled: 1
+  m_LessonId: a7c29c50-a011-400a-9ac3-ca8cdaa0d45d
+  m_Version: 1
+  m_ReturnToPreviousScenes: 0
+  m_SceneManagementBehavior: 1
+  m_Scenes: []
+  m_DefaultSceneCameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  m_WindowLayout: {fileID: 0}
+  m_Pages:
+    m_Items:
+    - {fileID: 11400000, guid: 1fd02d39905cf499d98d07b5db969aae, type: 2}
+    - {fileID: 11400000, guid: 66008b7d3291c4dd8b1453f5630e17cd, type: 2}
+    - {fileID: 11400000, guid: 5111a48037db9412abe3cbfb9ee05e74, type: 2}
+    - {fileID: 11400000, guid: 536662dd45815844da10fc9f71d44f69, type: 2}
+    - {fileID: 11400000, guid: db56a8e4d1d60ff47a1fd73f625968bb, type: 2}
+    - {fileID: 11400000, guid: 3815b37ef5f1f174cae3e88c92a55b4d, type: 2}
+    - {fileID: 11400000, guid: 1c3ac30c3c17c9248bbace151b025d7b, type: 2}
+    - {fileID: 11400000, guid: e6b1c7d12b59f8243b07e169bccaff74, type: 2}
+    - {fileID: 11400000, guid: 87cb025e7564c7a469aa92fe278be7ef, type: 2}
+    - {fileID: 11400000, guid: 1a13eabd069775541a20fc8b546d634b, type: 2}
+    - {fileID: 11400000, guid: f0f0e44e05d3202409cea411dcf99cbc, type: 2}
+  CompletionDialog: {fileID: 0}
+  Modified:
+    m_PersistentCalls:
+      m_Calls: []
+  Initiated:
+    m_PersistentCalls:
+      m_Calls: []
+  PageInitiated:
+    m_PersistentCalls:
+      m_Calls: []
+  GoingBack:
+    m_PersistentCalls:
+      m_Calls: []
+  Completed:
+    m_PersistentCalls:
+      m_Calls: []
+  Quit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Scene: {fileID: 0}
+  m_TutorialTitle: 

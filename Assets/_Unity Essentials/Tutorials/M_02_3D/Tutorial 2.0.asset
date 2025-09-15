@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89305aa391d1c5141bbe1628d930a2c5, type: 3}
+  m_Name: Tutorial 2.0
+  m_EditorClassIdentifier: 
+  Modified:
+    m_PersistentCalls:
+      m_Calls: []
+  ParentContainer: {fileID: 11400000, guid: 801cf8a0e199669469d6ab016c592df7, type: 2}
+  OrderInView: 1
+  BackgroundImage: {fileID: 2800000, guid: 99c8b7b6b90d544f59366361a25b1643, type: 3}
+  Title:
+    m_Untranslated: 2 |  3D Essentials
+  Subtitle:
+    m_Untranslated: "Create a kid\u2019s room from scratch, including a bouncing
+      ball that knocks over a tower of building blocks. "
+  Description:
+    m_Untranslated: 
+  ProjectLayout: {fileID: 102900000, guid: 337f070b8c61e93458a3035159475b94, type: 3}
+  Sections:
+  - OrderInView: 0
+    Heading:
+      m_Untranslated: 1 - Add furniture to the bedroom
+    Text:
+      m_Untranslated: Open the bedroom scene and furnish it with various items to
+        personalize the space.
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 3cd39a9fc57bc423da16466d25c5dc9b, type: 3}
+    Tutorial: {fileID: 11400000, guid: 3f44d25fa64184540bb2a5cfcc1ac092, type: 2}
+  - OrderInView: 1
+    Heading:
+      m_Untranslated: 2 - Make a bouncy ball
+    Text:
+      m_Untranslated: 'Make a ball bounce off of a ramp toward the corner of the
+        room. '
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 98a034230867644afb33f85cf4468027, type: 3}
+    Tutorial: {fileID: 11400000, guid: 5135199ef25f7474f92383b8669f0128, type: 2}
+  - OrderInView: 2
+    Heading:
+      m_Untranslated: 3 - Make a tower of prefab blocks
+    Text:
+      m_Untranslated: Use new primitive shapes to build a balanced structure while
+        learning about colliders and prefabs.
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: d2fabd16b3f904523bf73de8011abf56, type: 3}
+    Tutorial: {fileID: 11400000, guid: f37a1d862e54942d18b866a13bd505f2, type: 2}
+  - OrderInView: 3
+    Heading:
+      m_Untranslated: 4 - Lights, Camera, Action
+    Text:
+      m_Untranslated: Edit the lighting, change the background, and position your
+        camera for a perfect shot of your scene.
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 3e09db5cec47749139baebf8989e35bf, type: 3}
+    Tutorial: {fileID: 11400000, guid: d779cebbcdb4a492f820be8ea0597570, type: 2}
+  - OrderInView: 4
+    Heading:
+      m_Untranslated: '5 - 3D Essentials: More things to try'
+    Text:
+      m_Untranslated: Share your work with others completing the pathway and see
+        what other creators have submitted.
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 810e5237937ef1446812c21b2f418fd7, type: 3}
+    Tutorial: {fileID: 11400000, guid: a85df581c6cfeca448d05f77653375cf, type: 2}
+  - OrderInView: 5
+    Heading:
+      m_Untranslated: 6 - Complete the checkpoint
+    Text:
+      m_Untranslated: Complete a quiz to get credit for completing the Mission.
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: e1797cada939dba44be74155a455e59c, type: 3}
+    Tutorial: {fileID: 11400000, guid: 6e9bc6de3018c4d3ead34f9d9ea71b87, type: 2}

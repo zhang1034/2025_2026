@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: Step_4.2.8
+  m_EditorClassIdentifier: 
+  Title:
+    m_Untranslated: Declare new rotation speed variable
+  m_Paragraphs:
+    m_Items:
+    - m_Type: 9
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: 
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 2800000, guid: 5e143ea7467c64b21a4d48dbcf1b4866, type: 3}
+      m_VideoUrl: https://storage.googleapis.com/learn-media-public/Essentials-Pathway/4.2%20-%20Create%20a%20rotating%20collectible/4.2.8%20-%20Declare%20new%20rotation%20speed%20variable%20-%20VIDEO.webm
+      m_Video: {fileID: 32900000, guid: 5b69f4d6321874ec19173e92689ae1ad, type: 3}
+      m_Media:
+        m_ContentType: 2
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 0}
+        m_Url: https://storage.googleapis.com/learn-media-public/Essentials-Pathway/4.2%20-%20Create%20a%20rotating%20collectible/4.2.8%20-%20Declare%20new%20rotation%20speed%20variable%20-%20VIDEO.webm
+        m_AutoStart: 0
+        m_Loop: 0
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 0
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: "In this step, you will enhance the flexibility of the rotation
+          behavior by introducing a <b>public variable</b> to your script. \n\nA
+          variable in programming is just a named piece of data that can vary. When
+          you declare a public variable for rotation speed, you'll allow yourself,
+          and anyone else who works on this project in Unity, to easily adjust the
+          rotation rate directly from the <b>Inspector</b> window without the need
+          to modify the script. \n\nThis practice is an example of efficient game
+          programming."
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_VideoUrl: 
+      m_Video: {fileID: 0}
+      m_Media:
+        m_ContentType: 0
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 0}
+        m_Url: 
+        m_AutoStart: 1
+        m_Loop: 1
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 1
+      Title:
+        m_Untranslated: Instructions
+      Text:
+        m_Untranslated: "<b>1.</b>  Open the <b>Collectible</b> script in your script
+          editor.\n\n<b>2.</b>  Above the <b>Start()</b> method, but after the first
+          opening curly bracket of your script, use the <b>Enter</b> (macOS: <b>Return</b>)
+          key to add a few empty lines to make some space for yourself to type. \n\n<b>Important:</b> 
+          Pay close attention to the demo video to see where to put this code. Putting
+          it in the wrong section of your script will cause errors. \n\n<b>3.</b> 
+          Declare a new public float variable before the <b>Start</b> method by adding
+          the line: \n\n     <b>public float rotationSpeed;</b>\n\nThis creates a
+          public variable named <b>rotationSpeed</b> of type float. The word \"public\"
+          (as opposed to \"private\") makes this value editable in the <b>Inspector</b>
+          window. \n\nUsing a lowercase letter for the first word, but uppercase
+          letters at the start of all subsequent words is known as <b>camelCase,</b>
+          and is a common practice when naming variables. It\u2019s called camelCase
+          because it kind of looks like a camel from the side, with humps at the
+          center of the word. \n\n<b>4.</b>  Now, replace the hard-coded rotation
+          value in the <b>Update()</b> method with this new variable you just created:
+          \n\n     <b>transform.Rotate(0, rotationSpeed, 0);</b>\n\n<b>5.</b>  Save
+          the script and switch back to the Unity Editor. In the <b>Inspector</b>
+          window, you'll now see the <b>rotationSpeed</b> variable in the <b>Inspector</b>
+          window when you select the collectible object, which is set to zero by
+          default. You\u2019ll also notice that Unity has taken your camelCase <b>rotationSpeed</b>
+          variable and changed it to <b>Rotation Speed</b> in the <b>Inspector</b>
+          window for improved readability. \n\n<b>6.</b>  In the <b>Inspector</b>
+          window, set the <b>Rotation Speed</b> value to a number like <b>0.5</b>
+          to control the speed of rotation. Edit the value to the rotation speed
+          you like the best.\n\nNow, if you ever want to adjust that value in the
+          future, you don\u2019t need to open a script! You can make the change right
+          there in the <b>Inspector</b> window. \n\n<b>Note:</b>  Remember to save
+          your scene after exiting <b>Play</b> mode."
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_VideoUrl: 
+      m_Video: {fileID: 0}
+      m_Media:
+        m_ContentType: 0
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 0}
+        m_Url: 
+        m_AutoStart: 1
+        m_Loop: 1
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_CompletedSound: {fileID: 0}
+  m_FaqEntries: []
+  m_AutoAdvance: 0
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforePageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: Next
+  m_DoneButton: Done

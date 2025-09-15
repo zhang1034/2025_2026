@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: Step_4.3.12
+  m_EditorClassIdentifier: 
+  Title:
+    m_Untranslated: Review and proceed to the next tutorial
+  m_Paragraphs:
+    m_Items:
+    - m_Type: 6
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: 
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_VideoUrl: https://storage.googleapis.com/learn-media-public/Essentials-Pathway/4.3%20-%20Collect%20the%20collectibles/4.3.1%20-%20Overview%20-%20VIDEO.webm
+      m_Video: {fileID: 32900000, guid: 5b69f4d6321874ec19173e92689ae1ad, type: 3}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 0
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: "Congratulations on completing your interactive living room
+          scene by setting up collision detection for your collectible and triggering
+          VFX feedback. \n\nHere are some of the things you learned along the way:\n\n\u2022
+          Set up a collider as a trigger instead of a physical boundary. (<a href='https://docs.unity3d.com/6000.0/Documentation/Manual/EventFunctions.html?utm_source=learnTPOCi'>more</a>)\n\u2022
+          Apply the <b>OnTriggerEnter</b> method to detect collisions with other
+          objects. (<a href='https://docs.unity3d.com/6000.0/Documentation/Manual/EventHandling.html?utm_source=learnTPOCi'>more</a>)\n\u2022
+          Devise comments that describe a given block or line of code.\n\u2022 Apply
+          the <b>Destroy</b> method to remove objects from a scene. (<a href='https://docs.unity3d.com/6000.0/Documentation/Manual/InstantiatingPrefabs.html?utm_source=learnTPOCi'>more</a>)\n\u2022
+          Code quickly using the autocomplete feature of the IDE. (<a href='https://docs.unity3d.com/6000.0/Documentation/Manual/ManagedCodeDebugging.html?utm_source=learnTPOCi'>more</a>)\n\u2022
+          Declare a variable with the data type of GameObject. (<a href='https://docs.unity3d.com/6000.0/Documentation/Manual/class-GameObject.html?utm_source=learnTPOCi'>more</a>)\n\u2022
+          Apply the <b>Instantiate</b> method to spawn prefab instances in a scene.
+          (<a href='https://docs.unity3d.com/6000.0/Documentation/Manual/InstantiatingPrefabs.html?utm_source=learnTPOCi'>more</a>)\n\u2022
+          Apply snapping with the <b>Move</b> tool to align and evenly space out
+          GameObjects. (<a href='https://docs.unity3d.com/6000.0/Documentation/Manual/class-Transform.html?utm_source=learnTPOCi'>more</a>)\n\u2022
+          Apply <b>if</b> statements to control the logic and flow of a script.\n\u2022
+          Apply tags to GameObjects in order to identify them in a script. (<a href='https://docs.unity3d.com/6000.0/Documentation/Manual/Tags.html?utm_source=learnTPOCi'>more</a>)\n"
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_VideoUrl: 
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 1
+      Title:
+        m_Untranslated: Instructions
+      Text:
+        m_Untranslated: Proceed to the next tutorial, which includes optional challenges
+          to further develop your skills, explore new concepts, and improve your
+          project.
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_VideoUrl: 
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_CompletedSound: {fileID: 0}
+  m_AutoAdvance: 0
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforePageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: Next
+  m_DoneButton: Done

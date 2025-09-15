@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: Step_4.4.4
+  m_EditorClassIdentifier: 
+  Title:
+    m_Untranslated: 'Expert: Use generative AI to simulate sunrise and sunset'
+  m_Paragraphs:
+    m_Items:
+    - m_Type: 9
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: 
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 2800000, guid: d29fefbb3d8b8428ea34ebe4f67eb028, type: 3}
+      m_VideoUrl: https://storage.googleapis.com/learn-media-public/Essentials-Pathway/4.C%20-%20Challenge/4.C.4%20-%20Expert%20-%20Use%20generative%20AI%20to%20simulate%20sunrise%20and%20sunset_U6_V3.webm
+      m_Video: {fileID: 32900000, guid: 5b69f4d6321874ec19173e92689ae1ad, type: 3}
+      m_Media:
+        m_ContentType: 2
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 0}
+        m_Url: https://storage.googleapis.com/learn-media-public/Essentials-Pathway/4.C%20-%20Challenge/4.C.4%20-%20Expert%20-%20Use%20generative%20AI%20to%20simulate%20sunrise%20and%20sunset_U6_V3.webm
+        m_AutoStart: 0
+        m_Loop: 0
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 0
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: "You\u2019d be amazed at how much you can accomplish with
+          the help of generative AI large language models (LLMs) like <a href=\"https://muse.unity.com/\">Unity
+          Muse</a>, ChatGPT, or Claude. These tools are especially helpful for generating
+          relatively simple code. Unity Muse is trained and refined for Unity-specific
+          questions, so it will probably give you the most reliable results, but
+          other LLMs will work very well too. \n\nIn this Expert-level challenge,
+          you\u2019ll use one of these tools to generate a script that slowly rotates
+          the <b>Directional Light</b>, simulating a day-night cycle in your scene.\n\nThis
+          optional challenge is classified as Expert difficulty."
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_VideoUrl: 
+      m_Video: {fileID: 0}
+      m_Media:
+        m_ContentType: 0
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 0}
+        m_Url: 
+        m_AutoStart: 1
+        m_Loop: 1
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 1
+      Title:
+        m_Untranslated: Instructions
+      Text:
+        m_Untranslated: "<b>1.</b>  Head over to your generative AI tool of choice
+          and enter a prompt similar to the one below: \n\n\u201CCreate a script
+          for Unity that I can add to my <b>Directional Light</b> that slowly rotates
+          the light to simulate the day passing. The actual seconds for a day to
+          pass should be a variable editable in the <b>Inspector</b> window.\u201D\n\n<b>2.</b> 
+          In the script that is generated, locate the class declaration line at the
+          top of the script that says, \u201Cpublic class [SCRIPT_NAME] : MonoBehaviour.\u201D
+          \n\nThe [SCRIPT_NAME] is what you\u2019ll need to name your script. The
+          one generated for you will likely be different from the name of the script
+          in the example!\n\n<b>3.</b>  In the <b>Project</b> window, create a new
+          script and give it the appropriate script name, then apply it to the <b>Directional
+          Light</b> GameObject in your scene. \n\n<b>Important:</b>  The name of
+          your script in the <b>Project</b> window and the name declared within the
+          script in the class declaration (\u201Cpublic class [SCRIPT_NAME]\u201D)
+          must match exactly! Otherwise, your project will display an error in the
+          console.\n\n<b>4.</b>  Open the script and replace the default code with
+          the AI-generated code. Save the script and return to the Editor. \n\n<b>5.</b> 
+          In the <b>Inspector</b> window, there should be a new variable that allows
+          you to control the time it takes for a full day to pass. Make the day pass
+          quickly for testing purposes.\n\n<b>6.</b>  Enter <b>Play</b> mode to test
+          your new sun rotation functionality. \n\nIf something doesn\u2019t work,
+          explain what is happening to the AI tool and see if the AI can troubleshoot
+          the issue!"
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_VideoUrl: 
+      m_Video: {fileID: 0}
+      m_Media:
+        m_ContentType: 0
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 0}
+        m_Url: 
+        m_AutoStart: 1
+        m_Loop: 1
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_CompletedSound: {fileID: 0}
+  m_FaqEntries: []
+  m_AutoAdvance: 0
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforePageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: Next
+  m_DoneButton: Done

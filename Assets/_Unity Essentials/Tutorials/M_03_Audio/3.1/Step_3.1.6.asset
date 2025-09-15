@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: Step_3.1.6
+  m_EditorClassIdentifier: 
+  Title:
+    m_Untranslated: Add background music
+  m_Paragraphs:
+    m_Items:
+    - m_Type: 9
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: 
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_VideoUrl: https://storage.googleapis.com/learn-media-public/Essentials-Pathway/3.1%20-%20Create%20an%20Immersive%20Soundscape/3.1.6%20-%20Add%20Background%20Music%20-%20VIDEO_U6.webm
+      m_Video: {fileID: 32900000, guid: 5b69f4d6321874ec19173e92689ae1ad, type: 3}
+      m_Media:
+        m_ContentType: 2
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 0}
+        m_Url: https://storage.googleapis.com/learn-media-public/Essentials-Pathway/3.1%20-%20Create%20an%20Immersive%20Soundscape/3.1.6%20-%20Add%20Background%20Music%20-%20VIDEO_U6.webm
+        m_AutoStart: 0
+        m_Loop: 0
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 0
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: "In this step you'll add background music, which will set
+          the emotional tone of your scene. The track you select can completely alter
+          the ambiance of the scene, whether it's a calm classical piece, something
+          more upbeat, or even something a little spooky. \n\nThe boiling pot is
+          meant to mimic real-world 3D sound coming from the environment. Background
+          music, on the other hand, isn\u2019t produced by anything in the environment
+          and is purely used to enhance the overall atmosphere of the scene.\n\nLet's
+          set a mood in this scene with some background music."
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_VideoUrl: 
+      m_Video: {fileID: 0}
+      m_Media:
+        m_ContentType: 0
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 0}
+        m_Url: 
+        m_AutoStart: 1
+        m_Loop: 1
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 1
+      Title:
+        m_Untranslated: Instructions
+      Text:
+        m_Untranslated: "<b>1.</b>  In the <b>Hierarchy</b> window, right-click in
+          the empty space and select <b>Audio</b> > <b>Audio Source.</b> \n\nThis
+          will create a new GameObject that only has a <b>Transform</b> component
+          and an <b>Audio Source</b> component. \n\n<b>2.</b>  Rename the GameObject
+          \u201CBackground Music\u201D for clarity.\n\n<b>3.</b>  In the <b>Project</b>
+          window, browse the available music options in the <b>_Unity Essentials</b>
+          > <b>Audio</b> > <b>Music</b> folder. \n\nYou can preview the selected
+          music in the <b>Preview</b> panel at the bottom of the <b>Inspector</b>
+          window.\n\n<b>4.</b>  In the <b>Background Music</b> GameObject\u2019s
+          <b>Audio Source</b> component, set the <b>Audio Resource</b> to your desired
+          music, then enable <b>Loop.</b>\n\n<b>5.</b>  Adjust the <b>Audio Source\u2019s</b>
+          <b>Volume</b> property to a more subtle level, like <b>0.1 - 0.5,</b> to
+          ensure the background music doesn't overpower other sound in the scene.
+          \n\n<b>6.</b>  Keep the <b>Spatial Blend</b> of this <b>Audio Source</b>
+          component as the default 2D so that the background music's presence is
+          consistent throughout the scene without positional changes.\n\n<b>7.</b> 
+          Enter <b>Play</b> mode to test your background music and how it interacts
+          with the sound of the boiling pot. \n\nYou may want to change the volume
+          of the boiling pot or the music to get the balance just right.\n\n<b>Note:</b> 
+          Remember to save your scene often with <b>Ctrl+S</b> (macOS: <b>Cmd+S</b>)."
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_VideoUrl: 
+      m_Video: {fileID: 0}
+      m_Media:
+        m_ContentType: 0
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 0}
+        m_Url: 
+        m_AutoStart: 1
+        m_Loop: 1
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_CompletedSound: {fileID: 0}
+  m_FaqEntries: []
+  m_AutoAdvance: 0
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforePageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: Next
+  m_DoneButton: Done

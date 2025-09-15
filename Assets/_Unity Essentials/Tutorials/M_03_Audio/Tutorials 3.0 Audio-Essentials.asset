@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89305aa391d1c5141bbe1628d930a2c5, type: 3}
+  m_Name: Tutorials 3.0 Audio-Essentials
+  m_EditorClassIdentifier: 
+  Modified:
+    m_PersistentCalls:
+      m_Calls: []
+  ParentContainer: {fileID: 11400000, guid: 801cf8a0e199669469d6ab016c592df7, type: 2}
+  OrderInView: 2
+  BackgroundImage: {fileID: 2800000, guid: 8a8e568ae94ca4587926fa3e9345c668, type: 3}
+  Title:
+    m_Untranslated: 3 |  Audio Essentials
+  Subtitle:
+    m_Untranslated: Implement spatial 3D audio in a kitchen scene that immerses the
+      user in a unique soundscape.
+  Description:
+    m_Untranslated: 
+  ProjectLayout: {fileID: 0}
+  Sections:
+  - OrderInView: 0
+    Heading:
+      m_Untranslated: 1 - Create an immersive soundscape
+    Text:
+      m_Untranslated: Bring a kitchen scene to life with audio, including some background
+        music, a boiling pot of water, and even some birds chirping outside.
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: cac749af5a22a4dc28dfb7dc4bef57f5, type: 3}
+    Tutorial: {fileID: 11400000, guid: 495b9bb67f7fd46549d047ff9d72dd9c, type: 2}
+  - OrderInView: 1
+    Heading:
+      m_Untranslated: '2 - Audio Essentials: More things to try'
+    Text:
+      m_Untranslated: 'Further develop your project and skills with optional challenges
+        of varying difficulty.  '
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 810e5237937ef1446812c21b2f418fd7, type: 3}
+    Tutorial: {fileID: 11400000, guid: 294450ff12647c842ad83d0828f247ea, type: 2}
+  - OrderInView: 2
+    Heading:
+      m_Untranslated: 3 - Complete the checkpoint
+    Text:
+      m_Untranslated: Complete a quiz to get credit for completing the Mission.
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: e1797cada939dba44be74155a455e59c, type: 3}
+    Tutorial: {fileID: 11400000, guid: 05f738544c3c94d4aba03f6ce1390090, type: 2}

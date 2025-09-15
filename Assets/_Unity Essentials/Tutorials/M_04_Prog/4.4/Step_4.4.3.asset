@@ -1,0 +1,203 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: Step_4.4.3
+  m_EditorClassIdentifier: 
+  Title:
+    m_Untranslated: 'Medium: Make the door open when the player approaches'
+  m_Paragraphs:
+    m_Items:
+    - m_Type: 9
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: 
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 2800000, guid: d29fefbb3d8b8428ea34ebe4f67eb028, type: 3}
+      m_VideoUrl: https://storage.googleapis.com/learn-media-public/Essentials-Pathway/4.C%20-%20Challenge/4.C.3%20-%20Medium%20-%20Make%20the%20door%20open%20when%20the%20player%20approaches_U6_V2.webm
+      m_Video: {fileID: 32900000, guid: 5b69f4d6321874ec19173e92689ae1ad, type: 3}
+      m_Media:
+        m_ContentType: 2
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 0}
+        m_Url: https://storage.googleapis.com/learn-media-public/Essentials-Pathway/4.C%20-%20Challenge/4.C.3%20-%20Medium%20-%20Make%20the%20door%20open%20when%20the%20player%20approaches_U6_V2.webm
+        m_AutoStart: 0
+        m_Loop: 0
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 0
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: "The player is currently trapped in the living room. It would
+          open up so many possibilities if the player was able to open the doors
+          and enter other rooms. You could even connect the living room with the
+          kitchen and the kid\u2019s room and allow the player to explore all three
+          environments! \n\nTo allow the player to open the door, you\u2019ll need
+          to add a new script that makes use of Unity\u2019s Animator system. You
+          may not have realized this, but you can actually create animations directly
+          in Unity and then trigger those animations via scripts. \n\nThe <b>Door</b>
+          GameObject already has an <b>Animator</b> component with a Door_Open animation
+          attached to it. You need to add the script that tells that animation to
+          start when the player enters a trigger zone of the door. \n\nThis optional
+          challenge is classified as Medium difficulty."
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_VideoUrl: 
+      m_Video: {fileID: 0}
+      m_Media:
+        m_ContentType: 0
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 0}
+        m_Url: 
+        m_AutoStart: 1
+        m_Loop: 1
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 1
+      Title:
+        m_Untranslated: Instructions
+      Text:
+        m_Untranslated: "<b>1.</b>  Create a new script in the <b>Unity Essentials</b>
+          > <b>Scripts</b> folder named \u201CDoorOpener\u201D. \n\n<b>Important:</b> 
+          The name of this script must match exactly the name declared at the top
+          of the class in the code snippet below (DoorOpener). \n\n<b>2.</b>  In
+          the <b>Scene</b> view, select the door on the right side of the living
+          room, then in the <b>Hierarchy</b> window, make sure you have selected
+          the parent <b>Door</b> GameObject \u2014 and not the child <b>DoorPanel</b>
+          or <b>DoorHandle</b> GameObjects. \n\nThe parent GameObject is the one
+          with the <b>Animator</b> component attached to it. \n\n<b>3.</b>  With
+          the <b>Door</b> GameObject selected, select <b>Add Component,</b> then
+          search for and add your new <b>DoorOpener</b> script. \n\n<b>4.</b>  Open
+          the <b>DoorOpener</b> script in your script editor, delete all the default
+          code inside it, and replace it by copying and pasting the code below into
+          the empty script. \n\nFeel free to read through the code to see if you
+          can understand it, with help from the comments. When you\u2019re done,
+          save your script and return to the Unity Editor. \n\nThe script relies
+          on the door having a trigger zone that detects when the player has entered
+          it. \n\n<b>5.</b>  With the <b>Door</b> GameObject still selected, add
+          a new <b>Box Collider</b> component, then enable the <b>Is Trigger</b>
+          property.  \n\n<b>6.</b>  In the <b>Box Collider</b> component, select
+          <b>Edit Collider</b> then use the <b>Scene</b> view collider controls to
+          set the size and position of the trigger zone. \n\n<b>7.</b>  Enter <b>Play</b>
+          mode to test your game. \n\nWhen the player enters the trigger zone, the
+          door should open!"
+      m_CodeSample: "using UnityEngine;\r\n\r\n\r\npublic class DoorOpener : MonoBehaviour\r\n{\r\n  
+        private Animator doorAnimator;\r\n\r\n   void Start()\r\n   {\r\n       //
+        Get the Animator component attached to the same GameObject as this script\r\n      
+        doorAnimator = GetComponent<Animator>();\r\n   }\r\n\r\n   private void OnTriggerEnter(Collider
+        other)\r\n   {\r\n       // Check if the object entering the trigger is the
+        player (or another specified object)\r\n       if (other.CompareTag(\"Player\"))
+        // Make sure the player GameObject has the tag \"Player\"\r\n       {\r\n          
+        if (doorAnimator != null)\r\n           {\r\n               // Trigger the
+        Door_Open animation\r\n               doorAnimator.SetTrigger(\"Door_Open\");\r\n          
+        }\r\n       }\r\n   }\r\n}\r"
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_VideoUrl: 
+      m_Video: {fileID: 0}
+      m_Media:
+        m_ContentType: 0
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 0}
+        m_Url: 
+        m_AutoStart: 1
+        m_Loop: 1
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_CompletedSound: {fileID: 0}
+  m_FaqEntries: []
+  m_AutoAdvance: 0
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforePageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: Next
+  m_DoneButton: Done

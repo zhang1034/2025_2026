@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: Step_4.3.8
+  m_EditorClassIdentifier: 
+  Title:
+    m_Untranslated: Instantiate the particle
+  m_Paragraphs:
+    m_Items:
+    - m_Type: 9
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: 
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 2800000, guid: 7356978c80c9e4bb4b0986b8a7406887, type: 3}
+      m_VideoUrl: https://storage.googleapis.com/learn-media-public/Essentials-Pathway/4.3%20-%20Collect%20the%20collectibles/4.3.8%20-%20Instantiate%20the%20particle%20-%20VIDEO.webm
+      m_Video: {fileID: 32900000, guid: 5b69f4d6321874ec19173e92689ae1ad, type: 3}
+      m_Media:
+        m_ContentType: 2
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 0}
+        m_Url: https://storage.googleapis.com/learn-media-public/Essentials-Pathway/4.3%20-%20Collect%20the%20collectibles/4.3.8%20-%20Instantiate%20the%20particle%20-%20VIDEO.webm
+        m_AutoStart: 0
+        m_Loop: 0
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 0
+      Title:
+        m_Untranslated: 
+      Text:
+        m_Untranslated: "<b>Instantiating</b> an object in Unity means creating a
+          copy of it during runtime (while the application is running); you\u2019re
+          making a new instance of that prefab in your scene. \n\nJust like the transform.Rotate
+          method you used earlier required a rotation value for the X, Y, and Z axes,
+          the <b>Instantiate</b> method also requires certain information to execute,
+          separated by commas. Specifically, you need to specify the following information:\n\n\u2022
+          Which object to instantiate\n\u2022 The position of the instantiated object\n\u2022
+          The rotation of the instantiated object\n\nIn this step, you'll instantiate
+          your chosen particle effect when the player collides with the collectible."
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_VideoUrl: 
+      m_Video: {fileID: 0}
+      m_Media:
+        m_ContentType: 0
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 0}
+        m_Url: 
+        m_AutoStart: 1
+        m_Loop: 1
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 1
+      Title:
+        m_Untranslated: Instructions
+      Text:
+        m_Untranslated: "<b>1.</b>  Inside the <b>OnTriggerEnter</b> method, press
+          <b>Enter</b> (macOS: <b>Return</b>) after the <b>Destroy</b> command to
+          make room for your new code.\n\n<b>2.</b>  Add the <b>Instantiate</b> code
+          as is shown below \u2014 feel free to also include the comment:\n\n   //
+          instantiate the particle effect\n   Instantiate(onCollectEffect, transform.position,
+          transform.rotation);\n \nKeep in mind that since this code defines properties
+          of the collectible, \"transform\" refers to the transform (position, scale,
+          rotation) of this particular collectible GameObject. With that in mind,
+          here\u2019s how you can interpret the code above:\n\n\u2022 Call the <b>Instantiate</b>
+          method.\n\u2022 Which object do we want to instantiate? The <b>onCollectEffect.</b>
+          \n\u2022 What position should we instantiate it at? My current position
+          (<b>transform.position</b>).\n\u2022 What rotation should it have when
+          it\u2019s instantiated? My current rotation (<b>transform.rotation</b>).\n\n<b>transform.position</b>
+          and <b>transform.rotation</b> refer to the collectible\u2019s position
+          and rotation since this script is attached to the collectible object. \n\nDon\u2019t
+          worry if this is still confusing at this point. It\u2019ll take repetition
+          and time before you\u2019re fully comfortable. This is part of the process.\n\n<b>3.</b> 
+          Save your script, return to Unity, and enter <b>Play</b> mode. \n\nYou'll
+          see the particle effect appear when you collide with the collectible. This
+          visual feedback is much more satisfying!"
+      m_CodeSample: 
+      m_PostInstructionImage: {fileID: 0}
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_VideoUrl: 
+      m_Video: {fileID: 0}
+      m_Media:
+        m_ContentType: 0
+        m_Image: {fileID: 0}
+        m_VideoClip: {fileID: 0}
+        m_Url: 
+        m_AutoStart: 1
+        m_Loop: 1
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  NextButton:
+    m_Untranslated: Next
+  DoneButton:
+    m_Untranslated: Done
+  m_CompletedSound: {fileID: 0}
+  m_FaqEntries: []
+  m_AutoAdvance: 0
+  Showing:
+    m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
+      m_Calls: []
+  Staying:
+    m_PersistentCalls:
+      m_Calls: []
+  CriteriaValidated:
+    m_PersistentCalls:
+      m_Calls: []
+  MaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  NonMaskingSettingsChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforePageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnAfterPageShown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnTutorialPageStay:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnBeforeTutorialQuit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_NextButton: Next
+  m_DoneButton: Done
