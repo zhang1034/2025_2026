@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 52845ff9653a83742aac69939895a280
+timeCreated: 1506599231
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135162
+  packageName: 3D Game Kit Lite
+  packageVersion: 1.8.2
+  assetPath: Assets/3DGamekitLite/Scripts/Game/Player/StateMachineBehaviour/EllenSetTargetableSMB.cs
+  uploadId: 462213

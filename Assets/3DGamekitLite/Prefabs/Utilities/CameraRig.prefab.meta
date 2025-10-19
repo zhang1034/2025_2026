@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1fac0dae54de3224181696b709bb4d66
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135162
+  packageName: 3D Game Kit Lite
+  packageVersion: 1.8.2
+  assetPath: Assets/3DGamekitLite/Prefabs/Utilities/CameraRig.prefab
+  uploadId: 462213

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: e9582d2bf7627a5478f06709df5f184c
+timeCreated: 1502787479
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135162
+  packageName: 3D Game Kit Lite
+  packageVersion: 1.8.2
+  assetPath: Assets/3DGamekitLite/Prefabs/Characters/Enemies/Chomper/ChomperRagdoll.prefab
+  uploadId: 462213

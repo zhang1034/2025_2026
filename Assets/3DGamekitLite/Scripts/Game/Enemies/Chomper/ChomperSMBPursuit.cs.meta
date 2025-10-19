@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 14e6baf1fc93c0f439f744d88d13fc2d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135162
+  packageName: 3D Game Kit Lite
+  packageVersion: 1.8.2
+  assetPath: Assets/3DGamekitLite/Scripts/Game/Enemies/Chomper/ChomperSMBPursuit.cs
+  uploadId: 462213

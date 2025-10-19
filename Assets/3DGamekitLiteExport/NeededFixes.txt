@@ -1,0 +1,31 @@
+Input Manager:
+- Mouse Y duplicate -> CameraY, sensitivity 0,5
+- Mouse X duplicate -> CameraX, sensitivity 2
+- Pause Menu duplicate -> Pause
+- Fire duplicate -> Fire1
+
+Ellen and staff:
+- Ellen needs to be in Player layer (staff maybe in Default?)
+- Change the Damageable3D to Damageable script (same values)
+- Staff: Target Layers -> Needed layers (enemies)
+
+Chomper:
+- Chomper needs to be in Enemies layer
+- Fix materials
+- Change the Damageable3D to Damageable script (same values)
+- Nav Mesh Agent -> Humanoid (or create chomper)
+- NavMesh Surface to Ground -> Bake for each agent type
+
+Script problems:
+- Add missing scripts from the FixScripts.unitypackage
+- using Cinemachine; -> using Unity.Cinemachine;
+- Handle Assembly Definition problems: Move scripts into same folder structure OR create and connect Assembly Definition Assets
+- If needed: Problems with DamageMessage -> Duplicate Damageable.DamageMessage and change the partial class name to the missing one
+
+------------------------
+
+BreakableBox:
+- Add correct Destructable script functionalities
+- Damageable3D does not work due to Ellen's staff checking for Damageable component -> Change to Damageable (same values)
+- If needed: Rename FPS Damageable to DamageableObject, so it does not conflict with other same name script
+- If you have 3D Game Kit Lite in use: add the overridden Damageable.DamageMessage.cs (in Scripts/Game/DamageSystem if 3DGamekitLite)

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 0149b5ab8f608c943b260125ac76d875
+timeCreated: 1493116340
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135162
+  packageName: 3D Game Kit Lite
+  packageVersion: 1.8.2
+  assetPath: Assets/3DGamekitLite/Scripts/Game/DamageSystem/Damageable.cs
+  uploadId: 462213

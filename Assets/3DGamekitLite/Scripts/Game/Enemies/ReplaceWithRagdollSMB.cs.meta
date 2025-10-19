@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 66e4718957c72bf49beace341a4ad407
+timeCreated: 1504518806
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135162
+  packageName: 3D Game Kit Lite
+  packageVersion: 1.8.2
+  assetPath: Assets/3DGamekitLite/Scripts/Game/Enemies/ReplaceWithRagdollSMB.cs
+  uploadId: 462213

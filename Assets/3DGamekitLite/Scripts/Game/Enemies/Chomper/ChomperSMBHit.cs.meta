@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2cd87319b6aa4b246b8ee1571a86345b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135162
+  packageName: 3D Game Kit Lite
+  packageVersion: 1.8.2
+  assetPath: Assets/3DGamekitLite/Scripts/Game/Enemies/Chomper/ChomperSMBHit.cs
+  uploadId: 462213
