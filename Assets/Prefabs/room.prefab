@@ -3168,7 +3168,6 @@ GameObject:
   - component: {fileID: 7135698884773584640}
   - component: {fileID: 1648433810148473479}
   - component: {fileID: 5961295169003302807}
-  - component: {fileID: 2344939519051431941}
   m_Layer: 0
   m_Name: Floor2m (4)
   m_TagString: Untagged
@@ -3269,27 +3268,6 @@ BoxCollider:
   m_Size: {x: 2, y: 0.099999994, z: 2}
   m_Center: {x: 1, y: -0.049999997, z: -1}
 --- !u!65 &5961295169003302807
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8604461106333332468}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 2, y: 0.099999994, z: 2}
-  m_Center: {x: 1, y: -0.049999997, z: -1}
---- !u!65 &2344939519051431941
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
