@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 46ac422fee2ca584588bef99f7b9ce78
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 187530
+  packageName: LowPoly - StairLight (Lite)
+  packageVersion: 1.0
+  assetPath: Assets/LowPolyLight/Materials/emission_yellow.mat
+  uploadId: 559115

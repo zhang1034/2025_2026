@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ef119efe8e8d77b4a8c270a6ea6936e0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 187530
+  packageName: LowPoly - StairLight (Lite)
+  packageVersion: 1.0
+  assetPath: Assets/LowPolyLight/Demo/Camera/Main Camera.controller
+  uploadId: 559115
