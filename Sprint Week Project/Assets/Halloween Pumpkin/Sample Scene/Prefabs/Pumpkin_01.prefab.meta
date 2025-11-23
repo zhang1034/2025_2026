@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c5fec8b4fedf6804bad76e85cd41cc95
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 153723
+  packageName: Halloween Pumpkin Lantern
+  packageVersion: 1.1
+  assetPath: Assets/Halloween Pumpkin/Sample Scene/Prefabs/Pumpkin_01.prefab
+  uploadId: 425243
