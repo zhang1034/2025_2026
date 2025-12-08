@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8efd742feed218d46a6e0bb9fa1dffd4
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 331498
+  packageName: First Person Controller Pro
+  packageVersion: 2.2
+  assetPath: Assets/ElmanGameDevTools/FirstPersonControllerPro/Prefab_polygon/Plane.prefab
+  uploadId: 805530

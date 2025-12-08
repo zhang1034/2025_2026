@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 975bd4659596b434591ca1bc5250e210
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 331498
+  packageName: First Person Controller Pro
+  packageVersion: 2.2
+  assetPath: Assets/ElmanGameDevTools/FirstPersonControllerPro/Materials/baseboards.mat
+  uploadId: 805530

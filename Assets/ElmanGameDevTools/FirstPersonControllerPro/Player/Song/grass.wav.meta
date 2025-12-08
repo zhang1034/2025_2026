@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: b57d1f12d2c8bbc4792280119c2cfa2e
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 7
+  defaultSettings:
+    serializedVersion: 2
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 44100
+    compressionFormat: 1
+    quality: 1
+    conversionMode: 0
+    preloadAudioData: 0
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 1
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 331498
+  packageName: First Person Controller Pro
+  packageVersion: 2.2
+  assetPath: Assets/ElmanGameDevTools/FirstPersonControllerPro/Player/Song/grass.wav
+  uploadId: 805530

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5877940fdb7e44c4d8507e04cfe0b190
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 331498
+  packageName: First Person Controller Pro
+  packageVersion: 2.2
+  assetPath: Assets/ElmanGameDevTools/FirstPersonControllerPro/Materials/Grass.mat
+  uploadId: 805530

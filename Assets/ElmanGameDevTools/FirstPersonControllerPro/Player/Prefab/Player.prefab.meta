@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 691d201409042b143af4574240386e30
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 331498
+  packageName: First Person Controller Pro
+  packageVersion: 2.2
+  assetPath: Assets/ElmanGameDevTools/FirstPersonControllerPro/Player/Prefab/Player.prefab
+  uploadId: 805530

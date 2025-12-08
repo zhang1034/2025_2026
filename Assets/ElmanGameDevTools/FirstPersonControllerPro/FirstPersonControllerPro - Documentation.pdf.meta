@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6cd1d6f84fdb5c44fb77c777f7b9f502
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 331498
+  packageName: First Person Controller Pro
+  packageVersion: 2.2
+  assetPath: Assets/ElmanGameDevTools/FirstPersonControllerPro/FirstPersonControllerPro
+    - Documentation.pdf
+  uploadId: 805530

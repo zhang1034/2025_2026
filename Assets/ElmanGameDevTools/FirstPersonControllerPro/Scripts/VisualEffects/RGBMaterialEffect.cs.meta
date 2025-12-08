@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 03824e443a7791d4db8884629a9c0c5b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 331498
+  packageName: First Person Controller Pro
+  packageVersion: 2.2
+  assetPath: Assets/ElmanGameDevTools/FirstPersonControllerPro/Scripts/VisualEffects/RGBMaterialEffect.cs
+  uploadId: 805530

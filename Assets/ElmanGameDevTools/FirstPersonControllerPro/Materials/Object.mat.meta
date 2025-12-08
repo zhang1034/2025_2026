@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e6314a95fccb8804db5ed0254889cade
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 331498
+  packageName: First Person Controller Pro
+  packageVersion: 2.2
+  assetPath: Assets/ElmanGameDevTools/FirstPersonControllerPro/Materials/Object.mat
+  uploadId: 805530
