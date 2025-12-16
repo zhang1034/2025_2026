@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 90af46880f56b0b4bb5bdd6e4a813fed
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 281338
+  packageName: Low Poly Stylized Nature
+  packageVersion: 1.0.3
+  assetPath: Assets/Cody Dreams/Low Poly Stylized Nature/Shaders/Grass.shadergraph
+  uploadId: 764005

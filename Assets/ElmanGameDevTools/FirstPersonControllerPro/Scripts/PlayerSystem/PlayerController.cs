@@ -1,10 +1,20 @@
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 namespace ElmanGameDevTools.PlayerSystem
 {
     [AddComponentMenu("Elman Game Dev Tools/Player System/Player Controller")]
     public class PlayerController : MonoBehaviour
     {
+        [Header("INTERACTION")]
+        public float interactDistance = 3f;
+        public KeyCode interactKey = KeyCode.E;
+        public LayerMask interactLayer;
+
+        [Header("INTERACTION UI")]
+        public GameObject interactUI;
+
         [Header("REFERENCES")]
         [Tooltip("Reference to the Character Controller component")]
         public CharacterController controller;
@@ -157,6 +167,9 @@ namespace ElmanGameDevTools.PlayerSystem
 
         void Update()
         {
+            if (FindObjectOfType<DialogueManager>()?.IsTalking() == true)
+                return;
+                
             bool wasGrounded = isGrounded;
             isGrounded = controller.isGrounded;
 
@@ -175,6 +188,8 @@ namespace ElmanGameDevTools.PlayerSystem
             HandleCameraControl();
             HandleCameraTilt();
             HandleFovChange();
+            HandleInteraction();
+            UpdateInteractionUI();
 
             if (enableHeadBob) HandleHeadBob();
         }
@@ -247,6 +262,56 @@ namespace ElmanGameDevTools.PlayerSystem
             velocity.y += gravity * Time.deltaTime;
             controller.Move(velocity * Time.deltaTime);
         }
+
+        private void HandleInteraction()
+        {
+
+            DialogueManager dm = FindObjectOfType<DialogueManager>();
+            if (dm != null && dm.IsTalking())
+                return;
+
+            if (!Input.GetKeyDown(interactKey))
+                return;
+
+            Ray ray = new Ray(playerCamera.position, playerCamera.forward);
+            Debug.DrawRay(playerCamera.position, playerCamera.forward * interactDistance, Color.red, 1f);
+
+            if (Physics.Raycast(ray, out RaycastHit hit, interactDistance, interactLayer))
+            {
+
+                if (hit.collider.TryGetComponent(out NPCDialogue npc))
+                {
+                    npc.Interact();
+                    return;
+                }
+
+                if (hit.collider.TryGetComponent(out PickupItem pickup))
+                {
+                    pickup.Pickup();
+                    return;
+                }
+            }
+        }
+
+        private void UpdateInteractionUI()
+        {
+            Ray ray = new Ray(playerCamera.position, playerCamera.forward);
+            RaycastHit hit;
+
+            if (Physics.Raycast(ray, out hit, interactDistance, interactLayer))
+            {
+                if (hit.collider.GetComponent<IInteractable>() != null)
+                {
+                    if (!interactUI.activeSelf)
+                        interactUI.SetActive(true);
+                    return;
+                }
+            }
+
+            if (interactUI.activeSelf)
+                interactUI.SetActive(false);
+        }
+
 
         /// <summary>
         /// Handles camera tilting based on movement

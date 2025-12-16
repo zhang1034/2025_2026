@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 2c5289a7933a37b42bf8fd3a0d6c4b15
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 60072b568d64c40a485e0fc55012dc9f, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 281338
+  packageName: Low Poly Stylized Nature
+  packageVersion: 1.0.3
+  assetPath: Assets/Cody Dreams/Low Poly Stylized Nature/Shaders/SubGraphs/stars.shadersubgraph
+  uploadId: 764005
