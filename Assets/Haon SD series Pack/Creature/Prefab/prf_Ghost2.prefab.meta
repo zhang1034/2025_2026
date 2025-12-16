@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ebeaba7e98a66eb44acd326c2868a893
+timeCreated: 1502293057
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 311173
+  packageName: Haon SD Creature Pack
+  packageVersion: 2025.0
+  assetPath: Assets/Haon SD series Pack/Creature/Prefab/prf_Ghost2.prefab
+  uploadId: 733196

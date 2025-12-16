@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1ba97dc1cc9a92e4dad6cdf686a61e18
+timeCreated: 1503303865
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 311173
+  packageName: Haon SD Creature Pack
+  packageVersion: 2025.0
+  assetPath: Assets/Haon SD series Pack/Creature/Prefab/prf_Rabbit-polyart8.prefab
+  uploadId: 733196

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 99f301100c90ad545b1ae1b208e3e94c
+timeCreated: 1502293093
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 311173
+  packageName: Haon SD Creature Pack
+  packageVersion: 2025.0
+  assetPath: Assets/Haon SD series Pack/Creature/Prefab/prf_Ghost-polyart4.prefab
+  uploadId: 733196

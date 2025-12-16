@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: mat_Rabbit1_3
+  m_Shader: {fileID: 4800000, guid: be891319084e9d147b09d89e80ce60e0, type: 3}
+  m_Parent: {fileID: 2100000, guid: 9edd23eed4189454587a5d6b6092a185, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _EMISSIVE_SIMPLE
+  - _IS_ANGELRING_OFF
+  - _IS_CLIPPING_OFF
+  - _IS_OUTLINE_CLIPPING_NO
+  - _OUTLINE_NML
+  m_InvalidKeywords:
+  - _EMISSION
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    IgnoreProjection: False
+    RenderType: Opaque
+  disabledShaderPasses:
+  - SRPDEFAULTUNLIT
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Emissive_Tex:
+        m_Texture: {fileID: 2800000, guid: ac1f925e8d4d31143924e2dfb05d816d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 0dd16b10ad65b95488a348b3a23db7bb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _1st2nd_Shades_Feather: 0.688
+    - _1st_ShadeColor_Feather: 0.577
+    - _1st_ShadeColor_Step: 0.752
+    - _2nd_ShadeColor_Feather: 0.688
+    - _2nd_ShadeColor_Step: 0.133
+    - _BaseColor_Step: 0.752
+    - _BaseShade_Feather: 0.577
+    - _BumpScale: 0.077
+    - _EMISSIVE: 0
+    - _Is_NormalMapToBase: 0
+    - _Is_NormalMapToHighColor: 0
+    - _Is_NormalMapToRimLight: 1
+    - _RimLight: 1
+    - _RimLight_FeatherOff: 0
+    - _RimLight_InsideMask: 0.0001
+    - _RimLight_Power: 0.147
+    - _ShadeColor_Step: 0.133
+    m_Colors:
+    - _1st_ShadeColor: {r: 0.6316305, g: 0.7385733, b: 0.8867924, a: 1}
+    - _2nd_ShadeColor: {r: 0.35537556, g: 0.35537556, b: 0.6226415, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Emissive_Color: {r: 0, g: 0, b: 0, a: 1}
+    - _HighColor: {r: 0, g: 0, b: 0, a: 1}
+    - _RimLightColor: {r: 0.4056604, g: 0.35016912, b: 0.35016912, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
