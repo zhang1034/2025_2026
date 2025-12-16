@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ddd47ae7789504900b5a4cd29c0afa48
+timeCreated: 1433124290
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 37963
+  packageName: Sardine
+  packageVersion: 1.2.1
+  assetPath: Assets/Sardine/ReadMe.txt
+  uploadId: 214076

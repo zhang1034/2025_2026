@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: d241f7740a2d7417ea29458c0b79a9ec
+timeCreated: 1444833812
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 37963
+  packageName: Sardine
+  packageVersion: 1.2.1
+  assetPath: Assets/Sardine/Scripts/SardineCameraScript.cs
+  uploadId: 214076

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4cf089456002947f5a69b1a5967819c1
+timeCreated: 1444825769
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 37963
+  packageName: Sardine
+  packageVersion: 1.2.1
+  assetPath: Assets/Sardine/Materials/BlueSardine.mat
+  uploadId: 214076

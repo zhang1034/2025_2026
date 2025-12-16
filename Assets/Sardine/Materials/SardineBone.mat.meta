@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6f5a4ba968e584a4283e17469f7871f6
+timeCreated: 1444811439
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 37963
+  packageName: Sardine
+  packageVersion: 1.2.1
+  assetPath: Assets/Sardine/Materials/SardineBone.mat
+  uploadId: 214076

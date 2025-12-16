@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b366156c3cdef488ca295f60bc3ec327
+timeCreated: 1434087953
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 37963
+  packageName: Sardine
+  packageVersion: 1.2.1
+  assetPath: Assets/Sardine/Materials/sardinetransparent.mat
+  uploadId: 214076
